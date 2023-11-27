@@ -648,6 +648,8 @@ footer .copyright{
 
 /* Start Media Query */
 
+/* iPad */
+
 @media (max-width: 799px){
 
     .brand {
@@ -765,14 +767,22 @@ footer .copyright{
     }
 }
 
+/* Cellphone */
+
 @media (max-width: 477px){
+    .brand {
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 1%;
+        position: sticky;
+    }
 
     .section-p1{
         padding: 20px;
     }
 
     #header{
-        padding: 10px 30px
+        padding: 10px 15px
     }
 
     h1{
