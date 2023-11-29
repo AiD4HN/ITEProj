@@ -1013,7 +1013,15 @@ footer .copyright{
     font-size: 13px;
 }
 
+#subtotal .payment{
+    outline: none;
+}
 
+a:-webkit-any-link {
+    color:#000;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 
 /* Start Media Query */
